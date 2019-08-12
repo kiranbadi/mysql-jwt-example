@@ -2,7 +2,7 @@
 Spring Security MySQL JWT token based authentication example 
 Initial Commit.
 
-1 http://localhost:8081/register  
+1. http://localhost:8081/register  
 
 Register a new user - Post request
 
@@ -11,13 +11,13 @@ Request Body looks like below
 {"username":"kiranbadi11","password":"test11","firstName":"Kiran","lastName":"Badi","role":"admin"}
 
 
-2 http://localhost:8081/authenticate
+2. http://localhost:8081/authenticate
 
 authenticates new user with JDBC authenication against mysql with Post request and return jwt token
 
 {"username":"kiranbadi11","password":"test11"}
 
-http://localhost:8081/test
+3. http://localhost:8081/test
 
 Pass Authorization header in below format with jwt token in step 2.
 
